@@ -1,0 +1,17 @@
+{
+	"src": "js/src/",
+	"name": "odd-even-mergesort",
+	"debug": false,
+	"out": "js/dist/",
+	"code": {
+		"test": [
+			"test",
+			"js"
+		],
+		"main": [
+			"js",
+			"dist",
+			"odd-even-mergesort.js"
+		]
+	}
+}
