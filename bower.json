@@ -15,7 +15,7 @@
 	],
 	"description": "Batcher's odd-even mergesort code bricks for JavaScript",
 	"main": "js/dist/odd-even-mergesort.js",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"homepage": "http://aureooms.github.io/js-odd-even-mergesort/",
 	"license": "AGPL-3.0"
 }
