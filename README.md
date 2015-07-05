@@ -1,7 +1,7 @@
 [js-odd-even-mergesort](http://aureooms.github.io/js-odd-even-mergesort)
 ==
 
-Batcher's odd-even mergesort code bricks for JavaScript
+Batcher's odd-even mergesort code bricks for JavaScript. Parent is [aureooms/js-sort](https://github.com/aureooms/js-sort).
 
 ```js
 let modules = itertools.list( oddevenmergesort.whole( 4 ) ) ;
