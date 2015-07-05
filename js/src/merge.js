@@ -1,4 +1,12 @@
 
+/**
+ * Merges
+ *   [ i , i + r , i + 2 * r , ... , x [
+ * with
+ *   [ j , j + r , j + 2 * r , ... , k [
+ * (2 sorted sequences).
+ */
+
 const merge = function* ( i , x , j , k , r ) {
 
 	const step = r * 2 ;
@@ -18,6 +26,14 @@ const merge = function* ( i , x , j , k , r ) {
 		for ( i += r , x -= r ; i < x ; i += step ) yield [ i , i + r ] ;
 
 		if ( i < x + r ) {
+
+			// handles the case when we want to merge
+			// i              x       j        k
+			// E O E ... O E O  with  E O E ...
+			//   |_|     |_| |________| |_|
+			//                   ^^
+			//                   ||
+			//            this comparison
 
 			yield [ i , j ] ;
 			j += r ;

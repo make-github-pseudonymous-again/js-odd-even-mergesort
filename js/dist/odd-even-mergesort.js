@@ -10,6 +10,14 @@ var _slicedToArray = (function () { function sliceIterator(arr, i) { var _arr = 
 
 		/* js/src/merge.js */
 
+		/**
+   * Merges
+   *   [ i , i + r , i + 2 * r , ... , x [
+   * with
+   *   [ j , j + r , j + 2 * r , ... , k [
+   * (2 sorted sequences).
+   */
+
 		var merge = regeneratorRuntime.mark(function merge(i, x, j, k, r) {
 			var step, m, n;
 			return regeneratorRuntime.wrap(function merge$(context$3$0) {
@@ -203,3 +211,11 @@ var _slicedToArray = (function () { function sliceIterator(arr, i) { var _arr = 
 		definition(window["oddevenmergesort"] = {});
 	} else console.error("unable to detect type of module to define for aureooms-js-odd-even-mergesort");
 })();
+
+// handles the case when we want to merge
+// i              x       j        k
+// E O E ... O E O  with  E O E ...
+//   |_|     |_| |________| |_|
+//                   ^^
+//                   ||
+//            this comparison
