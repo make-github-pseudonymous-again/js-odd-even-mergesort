@@ -33,7 +33,7 @@
 		"url": "https://github.com/aureooms/js-odd-even-mergesort.git",
 		"type": "git"
 	},
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "aureooms",
 	"spm": {
 		"main": "js/dist/odd-even-mergesort.js"
