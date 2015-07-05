@@ -3,6 +3,24 @@
 
 Batcher's odd-even mergesort code bricks for JavaScript
 
+```js
+let modules = itertools.list( oddevenmergesort.whole( 4 ) ) ;
+modules ; // [ [ 0 , 1 ] , [ 2 , 3 ] , [ 0 , 2 ] , [ 1 , 3 ] , [ 1 , 2 ] ]
+
+let a = [ 3 , 1 , 2 , 4 ] ;
+for ( let [ i , j ] of modules ) if ( compare( a[i] , a[j] ) > 0 ) swap( a , i , j ) ;
+
+// 3 ----1------1----------- 1
+//       |      |
+// 1 ----3------|-3----2---- 2
+//              | |    |
+// 2 ------2----2-|----3---- 3
+//         |      |
+// 4 ------4------4--------- 4
+
+a ; // [ 1 , 2 , 3 , 4 ]
+```
+
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-odd-even-mergesort.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-odd-even-mergesort/master/LICENSE)
 [![NPM version](http://img.shields.io/npm/v/aureooms-js-odd-even-mergesort.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-odd-even-mergesort)
 [![Bower version](http://img.shields.io/bower/v/aureooms-js-odd-even-mergesort.svg?style=flat)](http://bower.io/search/?q=aureooms-js-odd-even-mergesort)
@@ -92,4 +110,14 @@ Alternatively, you can use any tool mentioned [here](http://bower.io/docs/tools/
 ### jam
 ```js
 require( [ "aureooms-js-odd-even-mergesort" ] , function ( oddevenmergesort ) { ... } ) ;
+```
+
+## Use
+
+```js
+let compare = require( "aureooms-js-compare" ) ;
+
+let a = [ 3 , 1 , 2 , 4 ] ;
+oddevenmergesort.sort( compare.increasing , a , 0 , a.length ) ; // O(n log² n)
+a ; // [ 1 , 2 , 3 , 4 ]
 ```
