@@ -8,6 +8,38 @@ var _slicedToArray = (function () { function sliceIterator(arr, i) { var _arr = 
 
 	var definition = function definition(exports, undefined) {
 
+		/* js/src/S.js */
+
+		var S = function S(n) {
+
+			if (n < 2) return 0;
+
+			var _m = n / 2 | 0;
+			var _n = n - _m;
+
+			return S(_m) + S(_n) + C(_m, _n);
+		};
+
+		exports.S = S;
+
+		/* js/src/count.js */
+
+		/**
+   * Number of modules required to merge two sorted lists of size m and n.
+   * See TAOC Vol 3 (Networks for Sorting).
+   */
+		var C = function C(m, n) {
+
+			if (m * n <= 1) return m * n;
+
+			var _m = m / 2 | 0;
+			var _n = n / 2 | 0;
+
+			return C(m - _m, n - _n) + C(_m, _n) + ((m + n - 1) / 2 | 0);
+		};
+
+		exports.C = C;
+
 		/* js/src/merge.js */
 
 		/**
