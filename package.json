@@ -5,7 +5,7 @@
 	"devDependencies": {
 		"aureooms-js-array": "^4.0.0",
 		"aureooms-js-compare": "^1.4.4",
-		"aureooms-js-in-situ-sort-spec": "^6.0.1",
+		"aureooms-js-in-situ-sort-spec": "^7.0.0",
 		"aureooms-js-itertools": "^3.0.0",
 		"aureooms-js-random": "^1.0.2",
 		"aureooms-js-sort": "^7.0.0",
