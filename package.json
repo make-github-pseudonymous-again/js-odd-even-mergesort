@@ -3,7 +3,7 @@
 	"description": "Batcher's odd-even mergesort code bricks for JavaScript",
 	"main": "js/dist/odd-even-mergesort.js",
 	"devDependencies": {
-		"aureooms-js-array": "^3.1.0",
+		"aureooms-js-array": "^4.0.0",
 		"aureooms-js-compare": "^1.4.4",
 		"aureooms-js-in-situ-sort-spec": "^6.0.1",
 		"aureooms-js-itertools": "^3.0.0",
