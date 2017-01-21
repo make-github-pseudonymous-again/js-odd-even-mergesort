@@ -9,7 +9,7 @@
 		"aureooms-js-itertools": "^3.0.0",
 		"aureooms-js-random": "^1.0.2",
 		"aureooms-js-sort": "^7.0.0",
-		"aureooms-node-package": "^4.2.5"
+		"aureooms-node-package": "^7.0.0"
 	},
 	"homepage": "http://aureooms.github.io/js-odd-even-mergesort/",
 	"license": "AGPL-3.0",
