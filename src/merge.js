@@ -7,7 +7,7 @@
  * (2 sorted sequences).
  */
 
-const merge = function* ( i , x , j , k , r ) {
+export function* merge ( i , x , j , k , r ) {
 
 	const step = r * 2 ;
 
@@ -44,6 +44,5 @@ const merge = function* ( i , x , j , k , r ) {
 
 	}
 
-} ;
+}
 
-exports.merge = merge ;

@@ -1,5 +1,6 @@
+import { merge } from './merge' ;
 
-const range = function* ( i , j ) {
+export function* range ( i , j ) {
 
     if ( j - i < 2 ) return ;
 
@@ -9,6 +10,5 @@ const range = function* ( i , j ) {
 	yield* range( pivot , j ) ;
 	yield* merge( i , pivot , pivot , j , 1 ) ;
 
-} ;
+}
 
-exports.range = range ;

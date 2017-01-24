@@ -1,5 +1,6 @@
+import { range } from './range' ;
 
-const sort = function ( compare , a , i , j ) {
+export function sort ( compare , a , i , j ) {
 
 	for ( const [ x , y ] of range( i , j ) ) {
 
@@ -7,6 +8,5 @@ const sort = function ( compare , a , i , j ) {
 
 	}
 
-} ;
+}
 
-exports.sort = sort ;

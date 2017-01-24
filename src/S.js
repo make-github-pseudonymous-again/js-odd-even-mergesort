@@ -1,5 +1,9 @@
+import { C } from './C' ;
 
-const S = function ( n ) {
+/**
+ * Number of modules required to sort n items.
+ */
+export function S ( n ) {
 
     if ( n < 2 ) return 0 ;
 
@@ -8,6 +12,5 @@ const S = function ( n ) {
 
 	return S( _m ) + S( _n ) + C( _m , _n ) ;
 
-} ;
+}
 
-exports.S = S ;

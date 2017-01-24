@@ -3,7 +3,7 @@
  * Number of modules required to merge two sorted lists of size m and n.
  * See TAOC Vol 3 (Networks for Sorting).
  */
-const C = function ( m , n ) {
+export function C ( m , n ) {
 
 	if ( m * n <= 1 ) return m * n ;
 
@@ -12,6 +12,5 @@ const C = function ( m , n ) {
 
 	return C( m - _m , n - _n ) + C( _m , _n ) + ( ( m + n - 1 ) / 2 | 0 ) ;
 
-} ;
+}
 
-exports.C = C ;
