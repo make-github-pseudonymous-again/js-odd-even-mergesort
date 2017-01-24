@@ -44,6 +44,7 @@
   "homepage": "http://aureooms.github.io/js-odd-even-mergesort/",
   "keywords": [
     "Batcher",
+    "algorithm",
     "even",
     "javascript",
     "js",
@@ -53,8 +54,7 @@
     "odd-even",
     "oddeven",
     "sort",
-    "sorting",
-    "algorithm"
+    "sorting"
   ],
   "license": "AGPL-3.0",
   "main": "lib/index.js",
