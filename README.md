@@ -29,7 +29,7 @@ for ( let [ i , j ] of modules ) if ( increasing( a[i] , a[j] ) > 0 ) swap( a , 
 a ; // [ 1 , 2 , 3 , 4 ]
 ```
 
-[![NPM license](https://img.shields.io/npm/l/@aureooms/js-odd-even-mergesort.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-odd-even-mergesort/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-odd-even-mergesort.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-odd-even-mergesort/master/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-odd-even-mergesort.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-odd-even-mergesort)
 [![Build Status](https://img.shields.io/travis/aureooms/js-odd-even-mergesort.svg?style=flat)](https://travis-ci.org/aureooms/js-odd-even-mergesort)
 [![Coverage Status](https://img.shields.io/coveralls/aureooms/js-odd-even-mergesort.svg?style=flat)](https://coveralls.io/r/aureooms/js-odd-even-mergesort)
