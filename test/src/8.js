@@ -1,7 +1,7 @@
 import test from 'ava';
 import { whole } from '../../src';
 
-import { list } from "aureooms-js-itertools" ;
+import { list } from "@aureooms/js-itertools" ;
 
 // https://en.wikipedia.org/wiki/Batcher_odd–even_mergesort
 

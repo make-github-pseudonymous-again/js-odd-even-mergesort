@@ -1,7 +1,7 @@
 import test from 'ava';
 import { S , whole } from '../../src';
 
-import { len } from "aureooms-js-cardinality" ;
+import { len } from "@aureooms/js-cardinality" ;
 
 test( "count" , t => {
 
