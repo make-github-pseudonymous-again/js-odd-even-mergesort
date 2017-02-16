@@ -8,7 +8,7 @@ import 'babel-polyfill' ;
 
 Then
 ```js
-const oddevenmergesort = require( 'aureooms-js-odd-even-mergesort' ) ;
+const oddevenmergesort = require( '@aureooms/js-odd-even-mergesort' ) ;
 // or
-import oddevenmergesort from 'aureooms-js-odd-even-mergesort' ;
+import oddevenmergesort from '@aureooms/js-odd-even-mergesort' ;
 ```

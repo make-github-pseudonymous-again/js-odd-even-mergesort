@@ -4,10 +4,10 @@ or [npm](https://github.com/npm/npm).
 
 ### jspm
 ```terminal
-jspm install npm:aureooms-js-odd-even-mergesort
+jspm install npm:@aureooms/js-odd-even-mergesort
 ```
 
 ### npm
 ```terminal
-npm install aureooms-js-odd-even-mergesort --save
+npm install @aureooms/js-odd-even-mergesort --save
 ```
