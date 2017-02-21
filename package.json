@@ -1,49 +1,71 @@
 {
-	"name": "aureooms-js-odd-even-mergesort",
-	"description": "Batcher's odd-even mergesort code bricks for JavaScript",
-	"main": "js/dist/odd-even-mergesort.js",
-	"devDependencies": {
-		"aureooms-js-array": "^3.1.0",
-		"aureooms-js-compare": "^1.4.4",
-		"aureooms-js-in-situ-sort-spec": "^7.0.0",
-		"aureooms-js-itertools": "^3.0.0",
-		"aureooms-js-random": "^1.0.2",
-		"aureooms-js-sort": "^7.0.0",
-		"aureooms-node-package": "^7.0.0"
-	},
-	"homepage": "http://aureooms.github.io/js-odd-even-mergesort/",
-	"license": "AGPL-3.0",
-	"dependencies": {},
-	"keywords": [
-		"Batcher",
-		"bricks",
-		"ender",
-		"even",
-		"javascript",
-		"js",
-		"merge",
-		"mergesort",
-		"odd",
-		"odd-even",
-		"oddeven",
-		"sort",
-		"sorting"
-	],
-	"repository": {
-		"url": "https://github.com/aureooms/js-odd-even-mergesort.git",
-		"type": "git"
-	},
-	"version": "1.0.1",
-	"author": "aureooms",
-	"spm": {
-		"main": "js/dist/odd-even-mergesort.js"
-	},
-	"bugs": {
-		"url": "https://github.com/aureooms/js-odd-even-mergesort/issues"
-	},
-	"scripts": {
-		"test": "./node_modules/.bin/aureooms-node-package-test",
-		"doc": "./node_modules/.bin/groc",
-		"build": "./node_modules/.bin/aureooms-node-package-build"
-	}
+  "name": "@aureooms/js-odd-even-mergesort",
+  "description": "Batcher's odd-even mergesort algorithm for JavaScript",
+  "version": "2.0.0",
+  "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
+  "ava": {
+    "require": [
+      "babel-polyfill",
+      "babel-register"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "env": {
+      "development": {
+        "sourceMaps": "inline"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/aureooms/js-odd-even-mergesort/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@aureooms/js-array": "^4.0.0",
+    "@aureooms/js-cardinality": "^2.0.0",
+    "@aureooms/js-compare": "^1.4.5",
+    "@aureooms/js-functools": "^2.0.3",
+    "@aureooms/js-in-situ-sort-spec": "^7.0.2",
+    "@aureooms/js-itertools": "^3.1.1",
+    "@aureooms/js-random": "^2.0.0",
+    "@aureooms/js-sort": "^7.0.0",
+    "ava": "^0.18.2",
+    "babel-cli": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.1.8",
+    "codeclimate-test-reporter": "^0.4.1",
+    "coveralls": "^2.11.16",
+    "esdoc": "^0.5.2",
+    "nyc": "^10.1.2"
+  },
+  "homepage": "http://aureooms.github.io/js-odd-even-mergesort/",
+  "keywords": [
+    "Batcher",
+    "algorithm",
+    "even",
+    "javascript",
+    "js",
+    "merge",
+    "mergesort",
+    "odd",
+    "odd-even",
+    "oddeven",
+    "sort",
+    "sorting"
+  ],
+  "license": "AGPL-3.0",
+  "main": "lib/index.js",
+  "repository": {
+    "url": "https://github.com/aureooms/js-odd-even-mergesort.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "cover": "nyc --reporter=lcov npm test",
+    "prepublish": "npm run build",
+    "test": "ava ./test/src --concurrency 8"
+  }
 }

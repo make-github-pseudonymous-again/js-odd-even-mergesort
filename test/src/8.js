@@ -1,11 +1,13 @@
+import test from 'ava';
+import { whole } from '../../src';
 
-var itertools = require( "aureooms-js-itertools" ) ;
+import { list } from "@aureooms/js-itertools" ;
 
 // https://en.wikipedia.org/wiki/Batcher_odd–even_mergesort
 
-test( "8" , function ( ) {
-	deepEqual(
-		itertools.list( oddevenmergesort.whole( 8 ) ) ,
+test( "8" , t => {
+	t.deepEqual(
+		list( whole( 8 ) ) ,
 		[
 			[0, 1],
 			[2, 3],
