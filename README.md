@@ -29,13 +29,17 @@ for ( let [ i , j ] of modules ) if ( increasing( a[i] , a[j] ) > 0 ) swap( a , 
 a ; // [ 1 , 2 , 3 , 4 ]
 ```
 
-[![License](https://img.shields.io/github/license/aureooms/js-odd-even-mergesort.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-odd-even-mergesort/master/LICENSE)
-[![NPM version](https://img.shields.io/npm/v/@aureooms/js-odd-even-mergesort.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-odd-even-mergesort)
-[![Build Status](https://img.shields.io/travis/aureooms/js-odd-even-mergesort.svg?style=flat)](https://travis-ci.org/aureooms/js-odd-even-mergesort)
-[![Coverage Status](https://img.shields.io/coveralls/aureooms/js-odd-even-mergesort.svg?style=flat)](https://coveralls.io/r/aureooms/js-odd-even-mergesort)
-[![Dependencies Status](https://img.shields.io/david/aureooms/js-odd-even-mergesort.svg?style=flat)](https://david-dm.org/aureooms/js-odd-even-mergesort#info=dependencies)
-[![devDependencies Status](https://img.shields.io/david/dev/aureooms/js-odd-even-mergesort.svg?style=flat)](https://david-dm.org/aureooms/js-odd-even-mergesort#info=devDependencies)
-[![Code Climate](https://img.shields.io/codeclimate/github/aureooms/js-odd-even-mergesort.svg?style=flat)](https://codeclimate.com/github/aureooms/js-odd-even-mergesort)
-[![NPM downloads per month](https://img.shields.io/npm/dm/@aureooms/js-odd-even-mergesort.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-odd-even-mergesort)
-[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-odd-even-mergesort.svg?style=flat)](https://github.com/aureooms/js-odd-even-mergesort/issues)
-[![Documentation](https://aureooms.github.io/js-odd-even-mergesort/badge.svg)](https://aureooms.github.io/js-odd-even-mergesort/source.html)
+[![License](https://img.shields.io/github/license/aureooms/js-odd-even-mergesort.svg)](https://raw.githubusercontent.com/aureooms/js-odd-even-mergesort/master/LICENSE)
+[![Version](https://img.shields.io/npm/v/@aureooms/js-odd-even-mergesort.svg)](https://www.npmjs.org/package/@aureooms/js-odd-even-mergesort)
+[![Build](https://img.shields.io/travis/aureooms/js-odd-even-mergesort/master.svg)](https://travis-ci.org/aureooms/js-odd-even-mergesort/branches)
+[![Dependencies](https://img.shields.io/david/aureooms/js-odd-even-mergesort.svg)](https://david-dm.org/aureooms/js-odd-even-mergesort)
+[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-odd-even-mergesort.svg)](https://david-dm.org/aureooms/js-odd-even-mergesort?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-odd-even-mergesort.svg)](https://github.com/aureooms/js-odd-even-mergesort/issues)
+[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-odd-even-mergesort.svg)](https://www.npmjs.org/package/@aureooms/js-odd-even-mergesort)
+
+[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-odd-even-mergesort.svg)](https://codeclimate.com/github/aureooms/js-odd-even-mergesort/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-odd-even-mergesort.svg)](https://codeclimate.com/github/aureooms/js-odd-even-mergesort/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-odd-even-mergesort/master.svg)](https://codecov.io/gh/aureooms/js-odd-even-mergesort)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-odd-even-mergesort.svg)](https://codeclimate.com/github/aureooms/js-odd-even-mergesort/trends/technical_debt)
+[![Documentation](http://aureooms.github.io/js-odd-even-mergesort//badge.svg)](http://aureooms.github.io/js-odd-even-mergesort//source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-odd-even-mergesort)](https://bundlephobia.com/result?p=@aureooms/js-odd-even-mergesort)
