@@ -25,7 +25,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-odd-even-mergesort/issues"
+    "url": "https://github.com/make-github-pseudonymous-again/js-odd-even-mergesort/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -72,7 +72,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/aureooms/js-odd-even-mergesort.git",
+    "url": "https://github.com/make-github-pseudonymous-again/js-odd-even-mergesort.git",
     "type": "git"
   },
   "scripts": {
