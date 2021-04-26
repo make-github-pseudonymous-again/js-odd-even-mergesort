@@ -1,10 +1,10 @@
-[@aureooms/js-odd-even-mergesort](https://aureooms.github.io/js-odd-even-mergesort)
+[@aureooms/js-odd-even-mergesort](https://make-github-pseudonymous-again.github.io/js-odd-even-mergesort)
 ==
 
 <img src="https://cdn.rawgit.com/aureooms/js-odd-even-mergesort/master/media/sketch.svg" width="864">
 
 Batcher's odd-even mergesort algorithm for JavaScript.
-See [docs](https://aureooms.github.io/js-odd-even-mergesort).
+See [docs](https://make-github-pseudonymous-again.github.io/js-odd-even-mergesort).
 Parent is [@aureooms/js-sort](https://github.com/aureooms/js-sort).
 
 ```js
@@ -41,5 +41,5 @@ a ; // [ 1 , 2 , 3 , 4 ]
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-odd-even-mergesort.svg)](https://codeclimate.com/github/aureooms/js-odd-even-mergesort/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-odd-even-mergesort/master.svg)](https://codecov.io/gh/aureooms/js-odd-even-mergesort)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-odd-even-mergesort.svg)](https://codeclimate.com/github/aureooms/js-odd-even-mergesort/trends/technical_debt)
-[![Documentation](http://aureooms.github.io/js-odd-even-mergesort//badge.svg)](http://aureooms.github.io/js-odd-even-mergesort//source.html)
+[![Documentation](http://make-github-pseudonymous-again.github.io/js-odd-even-mergesort//badge.svg)](http://make-github-pseudonymous-again.github.io/js-odd-even-mergesort//source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-odd-even-mergesort)](https://bundlephobia.com/result?p=@aureooms/js-odd-even-mergesort)
