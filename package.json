@@ -36,7 +36,7 @@
     "@aureooms/js-in-situ-sort-spec": "8.0.0",
     "@aureooms/js-itertools": "5.0.1",
     "@aureooms/js-random": "2.0.0",
-    "@aureooms/js-sort": "7.0.0",
+    "@aureooms/js-sort": "8.0.0",
     "@babel/cli": "7.13.10",
     "@babel/core": "7.13.10",
     "@babel/polyfill": "7.12.1",

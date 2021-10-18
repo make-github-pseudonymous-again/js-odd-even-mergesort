@@ -79,7 +79,12 @@
   resolved "https://registry.yarnpkg.com/@aureooms/js-random/-/js-random-2.0.0.tgz#f62c6954ed79bd9a520197125ee3cfbe14b00d72"
   integrity sha1-9ixpVO15vZpSAZcSXuPPvhSwDXI=
 
-"@aureooms/js-sort@7.0.0", "@aureooms/js-sort@^7.0.0":
+"@aureooms/js-sort@8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-sort/-/js-sort-8.0.0.tgz#5a82b69c0e1b61b8068b1b4f2ecd69e1ae35257f"
+  integrity sha512-aOP63ajdczRgwELnG5eZpMf4/1ygeq01ALeznH4xT6x4ESqBq+g9uXntUh4rvzczgRAwFWazLIRR0fK3tKEMWw==
+
+"@aureooms/js-sort@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@aureooms/js-sort/-/js-sort-7.0.0.tgz#db3c8b93acd93ee0500462b2cec29239c3deb34d"
   integrity sha1-2zyLk6zZPuBQBGKyzsKSOcPes00=
